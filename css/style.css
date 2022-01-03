@@ -1,14 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color-default-global: #6d6dc9;
+    --color-primary: #0fb9e470;
+    --color-secondary: #2729bd;
+    --color-main: #5e69caa6;
+}
+
+header h1, section h2{
+    line-height: 6.5rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: var(--color-primary);
+    margin-bottom: 2rem;
+    font-weight: 300; 
+}
+.pdp{
+    width: 56px;
+    height: 44px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+h4{
+    margin-left: 21rem;
+    margin-right: 1rem;
+    margin-bottom: 12rem;
+}
+h3{
+    margin-left: 20rem;
+    margin-right: 60rem;
+    font-size: 5rem;
+    font-family: 'Quicksand', sans-serif;;
+}
+
 body{
-    font: 1.6rem "Roboto", sans-serif;
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Anonymous Pro', monospace;
+    background-color: rgb(25, 25, 25);
+    font: 1.9rem "Roboto",sans-serif;
     margin: 0;
-    line-height: 1.6;
+    background: url(https://png.pngtree.com/background/20210712/original/pngtree-futuristic-neon-banner-blue-frame-with-lens-flare-picture-image_1177791.jpg) no-repeat fixed center/cover;
 }
-h1,h2,h3,p,figure,ul,ol{
-    margin: 0;
-    padding: 0;
-    font-weight: 100;
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 2rem;
+}
+
+p, ul, ol, h1, h2, h3, address{
+    font-style: normal;
+    margin: 1rem;
+    padding: 0rem;
+    list-style: none;
+}
+
+footer{
+    background: none;
+    margin-top: 2rem;
+    text-align: center;
 }
